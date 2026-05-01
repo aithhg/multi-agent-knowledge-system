@@ -1,0 +1,60 @@
+# Personal Claude settings (may contain API keys)
+.claude/
+
+# Local config
+config/
+
+# Nested copy
+BASES/
+
+# Local cache
+workspace/.claude-context/
+
+# Embedded git repo
+workspace/skills/browser-harness/
+
+# Personal content
+raw/
+workspace/raw/
+
+# Personal notes
+workspace/knowledge/areas/
+workspace/knowledge/resources/
+workspace/knowledge/projects/
+workspace/knowledge/archives/
+
+# Personal outputs (subdirectories)
+workspace/outputs/article/
+workspace/outputs/memo/
+workspace/outputs/social/
+workspace/outputs/ppt/
+workspace/outputs/infographic/
+workspace/outputs/pdf/
+workspace/outputs/artifacts/
+workspace/outputs/drafts/
+workspace/outputs/published/
+workspace/outputs/feedback/
+
+# Derived copy
+D&H&R/
+
+# Local config (nested)
+workspace/config/
+
+# Logs
+workspace/logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Obsidian
+.obsidian/
+**/.obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Inspection reports (contain personal system details)
+workspace/knowledge/inspections/
